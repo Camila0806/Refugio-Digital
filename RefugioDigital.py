@@ -9,6 +9,8 @@ El jugador debe analizar perfiles sospechosos, seleccionar la respuesta
 correcta y mantener la temperatura de seguridad para completar todos
 los niveles del simulador
  
+ Requisitos:
+  py -m pip install flask requests
 """
 
 from flask import Flask, render_template_string, request, redirect, url_for, session, jsonify
