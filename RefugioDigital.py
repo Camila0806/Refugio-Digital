@@ -903,7 +903,7 @@ HTML_TEMPLATE = """
                     <p style="color: var(--text-muted); margin-bottom: 12px; font-size: 14px;">Analiza este perfil y descubre que está mal:</p>
 
                     <div class="tarjeta-perfil">
-                        <img src="{{ nivel_actual.url_imagen }}" class="imagen-perfil" alt="Fotografía del perfil a analizar">
+                        <img src="{{ nivel_actual.url_imagen }}" class="imagen-perfil" alt="Conectate a internet para ver la foto">
                         <div>
                             <h3 style="margin-bottom: 4px; font-size: 16px;">{{ nivel_actual.perfil }}</h3>
                             <p style="margin: 0 0 4px 0; color: var(--text-sub); font-size: 14px;">{{ nivel_actual.bio }}</p>
